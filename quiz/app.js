@@ -17,11 +17,11 @@ form.addEventListener('submit', e => {
             score += 25;
         };
 
+    scrollTo(0,0);
    //get inside of result and access it's span 
     result.querySelector('span').textContent = `${score}%`;
 //remove the nondisplay class from d-none
     result.classList.remove('d-none');
-
 });
 
 
